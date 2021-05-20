@@ -7,5 +7,9 @@ typedef enum {
   OP_RETURN,
 } OpCode;
 
+// bytecode instruction def
+typedef struct {
+  uint8_t* code;
+} Chunk;
 
 #endif
